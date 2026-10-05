@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pertemuan5.LimaActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#E25889"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:subtitleTextColor="@android:color/white"
+            app:titleTextColor="@android:color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:padding="24dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnWebView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:backgroundTint="#7DBAEB"
+                android:text="Web Tribun Pekanbaru"
+                android:textColor="#4E342E"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika.Saya berasal dari Dumai, dan saya lahir pada 26 Februari 2006 di Dumai. Saat ini usia saya 20 tahun."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text=" Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika.Saya berasal dari Dumai, dan saya lahir pada 26 Februari 2006 di Dumai. Saat ini usia saya 20 tahun."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika.Saya berasal dari Dumai, dan saya lahir pada 26 Februari 2006 di Dumai. Saat ini usia saya 20 tahun."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Haloooooo  Selamat pagiiiiii have a nicee dayyy yahhhh.Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika.Saya berasal dari Dumai, dan saya lahir pada 26 Februari 2006 di Dumai. Saat ini usia saya 20 tahun."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:text="Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika.Saya berasal dari Dumai, dan saya lahir pada 26 Februari 2006 di Dumai. Saat ini usia saya 20 tahun..Terimakasiiii.......... Goodbyeeee...."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:text="Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika.Saya berasal dari Dumai, dan saya lahir pada 26 Februari 2006 di Dumai. Saat ini usia saya 20 tahun..Terimakasiiii.......... Goodbyeeee...."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:text="Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika.Saya berasal dari Dumai, dan saya lahir pada 26 Februari 2006 di Dumai. Saat ini usia saya 20 tahun..Terimakasiiii.......... Goodbyeeee...."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:text="Halo ini Manda Syahyati Kamal Dari Kelas 3 TIA Generasi 24 Teknik Informatika.Saya berasal dari Dumai, dan saya lahir pada 26 Februari 2006 di Dumai. Saat ini usia saya 20 tahun..Terimakasiiii.......... Goodbyeeee...."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
