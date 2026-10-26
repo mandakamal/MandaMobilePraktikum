@@ -13,11 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Manda3TIA_P3">
         <activity
-            android:name=".pertemuan5.WebViewActivity"
+            android:name=".Home.pertemuan5.WebViewActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".pertemuan5.LimaActivity"
+            android:name=".Home.pertemuan5.LimaActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
@@ -35,11 +35,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".pertemuan_6.EnamActivity"
+            android:name=".Home.pertemuan_6.EnamActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Message.MessageActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Home.pertemuan9.NinthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".TutorialScreenActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Tutorial.TutorialMessageActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

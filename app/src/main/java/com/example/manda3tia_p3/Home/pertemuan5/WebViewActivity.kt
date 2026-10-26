@@ -1,4 +1,4 @@
-package com.example.manda3tia_p3.pertemuan5
+package com.example.manda3tia_p3.Home.pertemuan5
 
 import android.os.Bundle
 import android.view.MenuItem

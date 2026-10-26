@@ -1,4 +1,4 @@
-package com.example.manda3tia_p3.pertemuan5
+package com.example.manda3tia_p3.Home.pertemuan5
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
@@ -6,7 +6,6 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.manda3tia_p3.databinding.ActivityLimaBinding
-import com.example.manda3tia_p3.pertemuan5.WebViewActivity
 import com.example.manda3tia_p3.R
 
 class LimaActivity : AppCompatActivity() {

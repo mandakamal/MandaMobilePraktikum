@@ -1,4 +1,4 @@
-package com.example.manda3tia_p3.pertemuan_6
+package com.example.manda3tia_p3.Tutorial
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,15 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.manda3tia_p3.R
 
-
-class SatuFragment : Fragment() {
-
+class FragmentTutorial1 : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_satu, container, false)
+        return inflater.inflate(R.layout.fragment_tutorial1, container, false)
     }
 
-}
+    }

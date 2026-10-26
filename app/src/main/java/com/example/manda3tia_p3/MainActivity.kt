@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.manda3tia_p3.databinding.ActivityMainBinding
-import com.example.manda3tia_p3.pertemuan5.LimaActivity
-import com.example.manda3tia_p3.pertemuan_6.EnamActivity
+import com.example.manda3tia_p3.Home.pertemuan5.LimaActivity
+import com.example.manda3tia_p3.Home.pertemuan_6.EnamActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 
