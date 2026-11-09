@@ -1,5 +1,6 @@
 package com.example.manda3tia_p3.Home
 
+import Pertemuan_10.TenthActivity
 import android.content.Context.MODE_PRIVATE
 import android.content.Intent
 import android.os.Bundle
@@ -82,6 +83,10 @@ class HomeFragment : Fragment() {
         }
         binding.btnToSembilan.setOnClickListener {
             val intent = Intent(requireContext(), NinthActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnToTenth.setOnClickListener {
+            val intent = Intent(requireContext(), TenthActivity::class.java)
             startActivity(intent)
         }
 

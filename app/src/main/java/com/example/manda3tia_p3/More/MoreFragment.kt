@@ -16,8 +16,7 @@ import com.example.manda3tia_p3.databinding.FragmentMoreBinding
  * A simple [Fragment] subclass.
  */
 class MoreFragment : Fragment() {
-    private var _binding: FragmentMoreBinding?=
-        null
+    private var _binding: FragmentMoreBinding?= null
     private val binding get() =_binding!!
     private val dataList = listOf(
         "Kotlin", "Java", "Python", "C++", "JavaScript",
